@@ -39,6 +39,22 @@ h1{
     font-size: 2rem;
     text-transform: uppercase;
 }
+h2{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    background: #245269;
+    color: #eee;
+    width: 100%;
+    padding: 10px;
+    border-left: 2px solid #FC29A3;
+}
+h3{
+    text-transform: uppercase;
+    border-bottom: 1px solid #101617;
+    font-size: 1.2rem;
+    padding: 0 0 5px 0;
+}
+
 
 
 
@@ -69,4 +85,40 @@ h1{
 }
 .full-width{
     width: 100%;
+}
+
+/*=============================================
+                   CONTENT BGs
+==============================================*/
+.bg-white{
+    background: #eee;
+    padding: 10px;
+}
+hr{
+    border-bottom: 1px dashed #999;
+}
+
+
+
+/*=============================================
+                   ARCHIVES
+==============================================*/
+.archiver-hold{
+    text-align: center;
+}
+a.archiver{}
+
+.border-left{border-left: 1px solid #ccc;}
+.border-right{border-right: 1px solid #ccc;}
+
+.bg-archive{
+    background: #eee;
+}
+.archive-row{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    margin: 0;
+}
+.actions-holder .btn{
+    border-radius: 0;
 }
