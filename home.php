@@ -18,7 +18,10 @@
               <div class="navbar-header">
                   <a class="navbar-brand navbar-left"><img height="30px" src="img/logo.png" alt="Fishgate logo" /></a>
               </div>
-              <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Mark Otto</a></p>
+              <p class="navbar-text navbar-right text-right">
+                  Hello <a href="#" class="navbar-link">John Smith</a>!<br />
+                  <a href="#">Logout</a>
+              </p>
           </div>
       </nav>
 
@@ -61,6 +64,7 @@
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">Delete</a></li>
                             <li><a href="#">Share</a></li>
+                            <li><a href="#">Download</a></li>
                         </ul>
                     </div>
                 </div>

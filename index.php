@@ -27,22 +27,22 @@
       =========================================-->
       <div class="well well-lg loginbox">
           <h1>login</h1>
-          <form method="POST" action="php/login.php">
+          <form name="formlogin" method="POST" action="php/checklogin.php">
           <div class="input-group input-group-sm">
               <span class="input-group-addon glyphicon glyphicon-user"></span>
-              <input type="text" class="form-control" name="user" id="user" placeholder="Username" required />
+              <input type="text" class="form-control" name="myusername" id="myusername" placeholder="Username" required />
           </div>
           
           <div class="br">&nbsp;</div>
           
           <div class="input-group input-group-sm">
               <span class="input-group-addon glyphicon glyphicon-certificate"></span>
-              <input type="password" class="form-control" name="pass" id="pass" placeholder="Password" required />
+              <input type="password" class="form-control" name="mypassword" id="mypassword" placeholder="Password" required />
           </div>
           
           <div class="br">&nbsp;</div>
-          
-          <button class="btn btn-primary full-width" type="button">Enter</button>
+          <input class="btn btn-primary full-width" type="submit" name="submit" value="login" />
+<!--          <button class="btn btn-primary full-width" type="button">Enter</button>-->
           </form>
       </div>
       
