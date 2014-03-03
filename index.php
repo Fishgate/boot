@@ -1,3 +1,12 @@
+<?php
+
+require_once 'config.php';
+
+
+$test = new DbConnect();
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,7 +36,7 @@
       =========================================-->
       <div class="well well-lg loginbox">
 <!--          <h1>login</h1>-->
-          <form name="formlogin" method="POST" action="php/checklogin.php">
+          <form name="formlogin" method="POST" action="scripts/checklogin.php">
           <div class="input-group input-group-sm">
               <span class="input-group-addon glyphicon glyphicon-user"></span>
               <input type="text" class="form-control" name="myusername" id="myusername" placeholder="Username" required />
